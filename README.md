@@ -26,7 +26,7 @@ Create an `.eslintrc.js` file in the root directory of your repository:
 
 ```js
 module.exports = {
-  extend: 'hackreactor',
+  extends: 'hackreactor',
   rules: {
     // Rules here will override the 'hackreactor' configuration
     // http://eslint.org/docs/rules/
@@ -52,7 +52,7 @@ If you don't see any output, your files have passed all the linting rules. In ad
 By downloading and configuring a couple of plugins for Sublime Text, you can receive live feedback about your code's syntax and style, much like spelling errors in a word document. This is a very useful practice to build muscle memory around good style habits.
 
 ### Install SublimeLinter
-The easiest way to download plugins for Sublime Text is through [Package Control](https://packagecontrol.io/installation). With Package Control, you can install [SublimeLinter](http://www.sublimelinter.com/) and its [ESLint plugin](https://github.com/roadhump/SublimeLinter-eslint) from the Command Palette (`cmd + shift + p`): 
+The easiest way to download plugins for Sublime Text is through [Package Control](https://packagecontrol.io/installation). With Package Control, you can install [SublimeLinter](http://www.sublimelinter.com/) and its [ESLint plugin](https://github.com/roadhump/SublimeLinter-eslint) from the Command Palette (`cmd + shift + p`):
 
 * `Package Control: Install Package -> SublimeLinter`
 * `Package Control: Install Package -> SublimeLinter-contrib-eslint`
